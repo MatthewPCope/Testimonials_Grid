@@ -1,0 +1,62 @@
+:root {
+    --color-violet: hsl(263, 55%, 52%);
+    --color-dark-grayish-blue: hsl(217, 19%, 35%);
+    --color-dark-blackish-blue:  hsl(219, 29%, 14%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(0, 0%, 81%);
+    --color-light-grayish-blue: hsl(210, 46%, 95%);
+
+    --space-unit: 1.6em;
+    --space-xxs: calc(0.25 * var(--space-unit));
+    --space-xs: calc(0.5 * var(--space-unit));
+    --space-sm: calc(0.75 * var(--space-unit));
+    --space-md: calc(1.25 * var(--space-unit));
+    --space-lg: calc(2 * var(--space-unit));
+    --space-xl: calc(3.25 * var(--space-unit));
+    --space-xxl: calc(5.25 * var(--space-unit));
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: var(--color-light-grayish-blue);
+    font-size: 62.5%;
+}
+body{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: var(--color-white);
+    line-height: 1.5;
+}
+.main{
+    margin: var(--space-xl) var(--space-lg);
+    display: grid;
+    place-items: center;
+}
+.cards{
+    display: grid;
+    gap: var(--space-lg);
+}
+.card{
+    max-width:35rem;
+    border-radius: .5rem;
+    background-color: #ffffff;
+    padding: var(--space-lg);
+    box-shadow: 0 1.8rem 1.8rem rgba(84, 158, 242, 0.086);
+}
+.card--1{
+    background-color: var(--color-violet);
+}
+.card--2{
+    background-color: var(--color-dark-grayish-blue);
+}
+.card--3{
+    background-color: var(--color-white);
+}
+.card--4{
+    background-color: var(--color-white);
+}
+.card--5{
+    background-color: var(--color-dark-blackish-blue);
+}
