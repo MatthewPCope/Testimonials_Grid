@@ -40,7 +40,7 @@ body{
 }
 .card{
     max-width:35rem;
-    border-radius: .5rem;
+    border-radius: 1rem;
     background-color: #ffffff;
     padding: var(--space-lg);
     box-shadow: 0 1.8rem 1.8rem rgba(84, 158, 242, 0.086);
@@ -59,4 +59,13 @@ body{
 }
 .card--5{
     background-color: var(--color-dark-blackish-blue);
+}
+.card--3,
+.card--4{
+    color: var(--color-dark-blackish-blue);
+}
+.card-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
