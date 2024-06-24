@@ -43,7 +43,7 @@ body{
     background-color: #ffffff;
     padding: var(--space-md);
     box-shadow: 0 1.8rem 1.8rem rgba(84, 158, 242, 0.086);
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 .card--1{
     background-color: var(--color-violet);
@@ -60,9 +60,14 @@ body{
 .card--5{
     background-color: var(--color-dark-blackish-blue);
 }
+.card--1,
+.card--2,
+.card--5{
+    color: var(--color-light-gray);
+}
 .card--3,
 .card--4{
-    color: var(--color-dark-blackish-blue);;
+    color: var(--color-dark-blackish-blue);
 }
 .card--1 .image,
 .card--4 .image{
@@ -96,9 +101,7 @@ body{
     position: relative;
     z-index: 1;
 }
-.card-text{
-    color: var(--color-light-gray);
-}
+
 .graduate{
     font-size: 1.2rem;
 }
