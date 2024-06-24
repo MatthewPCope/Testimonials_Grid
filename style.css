@@ -28,7 +28,6 @@ html{
 body{
     font-family: "Barlow Semi Condensed", sans-serif;
     color: var(--color-white);
-    line-height: 1.5;
 }
 .main{
     margin: var(--space-xl) var(--space-lg);
