@@ -44,6 +44,7 @@ body{
     background-color: #ffffff;
     padding: var(--space-lg);
     box-shadow: 0 1.8rem 1.8rem rgba(84, 158, 242, 0.086);
+    font-size: 1.6rem;
 }
 .card--1{
     background-color: var(--color-violet);
@@ -73,4 +74,15 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.image{
+    border-radius: 50%;
+}
+.bold-text{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+}
+.card-text{
+    color: #7e8797;
 }
