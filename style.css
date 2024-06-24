@@ -60,9 +60,9 @@ body{
 .card--5{
     background-color: var(--color-dark-blackish-blue);
 }
-.card--1,
-.card--2,
-.card--5{
+.card--1 .card-text,
+.card--2 .card-text,
+.card--5 .card-text{
     color: var(--color-light-gray);
 }
 .card--3,
@@ -83,7 +83,7 @@ body{
 }
 .quote-mark{
     position: absolute;
-    top: -3rem;
+    top: -2rem;
     right:0;    
 }
 .daniel{
